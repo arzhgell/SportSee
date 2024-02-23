@@ -19,7 +19,7 @@ export function Router() {
   const [user, setUser] = useState();
 
   const fetchCurrentUser = async () => {
-    const response = await getUser(12);
+    const response = await getUser(18);
     setUser(response.data.data);
   };
 
